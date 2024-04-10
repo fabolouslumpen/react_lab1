@@ -1,0 +1,421 @@
+/*main*/
+body {
+    background: linear-gradient(136.56deg, #8a53b6 0%, #cea2d0 97.42%);
+    min-height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: "Inter","LatoWeb",'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+}
+
+.core {
+    min-width: 990px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin: auto;
+    width: 990px;
+    height: 680px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 0 14px rgba(0,0,0,0.2);
+    align-content: stretch;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    display: flex;
+    width: 990px;
+    color: white;
+    margin-bottom: 16px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: .8;
+}
+
+.footer_widget {
+    display: flex;
+}
+
+.widget_button {
+    display: flex;
+    background: rgba(255, 255, 255, 0.08);
+    border: .5px solid rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    position: relative;
+    padding: 0 16px;
+    height: 40px;
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.widget_img {
+    display: flex;
+    align-self: center;
+}
+
+.widget_text {
+    margin-left: 8px;
+}
+/*main*/
+
+/*left*/
+.card_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: block;
+    margin: 42px auto 24px auto;
+}
+
+.jar {
+    margin: auto;
+    position: relative;
+}
+
+.jar_bg {
+    width: 215px;
+    height: 215px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    background-size: cover;
+    border: 0;
+}
+
+.jar_photo {
+    position: absolute;
+    margin-top: -70px !important;
+    margin-left: 128px;
+    border: 0 !important;
+    z-index: 2;
+}
+
+.avatar {
+    height: 56px !important;
+    width: 56px !important;
+    border-radius: 32px !important;
+}
+
+.jar_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(.97) translate(-50%,-50%);
+    transform-origin: center;
+}
+
+.jar_glass {
+    height: 203px;
+    width: 155px;
+}
+
+.grid_box {
+    position: absolute;
+    top: 26px;
+    left: 13px;
+}
+
+.grid_text {
+    font-weight: 800;
+    font-size: 10px;
+    color: #8e5b5b;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.goal {
+    bottom: 157px;
+    left: 16px;
+}
+
+.half {
+    bottom: 83px;
+    left: 5px;
+}
+
+.zero {
+    bottom: 8px;
+    left: 7px;
+}
+
+.info {
+    text-align: center;
+    margin: auto;
+}
+
+.owner {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 4px;
+}
+
+.description {
+    margin-top: 4px;
+    flex-direction: column;
+    min-width: 340px;
+    width: unset;
+}
+
+.text_box {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000;
+    margin-top: 8px;
+    margin: 0 auto;
+}
+
+.stats {
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    justify-content: center;
+    margin-top: 16px;
+    border-radius: 16px;
+}
+
+.stats_data {
+    display: flex;
+    position: relative;
+    padding: 0 20px;
+    margin: 12px 0;
+    border-right: solid #ccc 0.5px;
+    align-items: center;
+}
+
+.stats_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats_label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: gray;
+}
+
+.stats_value {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+}
+/*left*/
+
+/*right*/
+.card_right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border_gradient {
+    border: solid 3px;
+    border-radius: 24px;
+    border-image-slice: 1;
+    border-radius: 24px;
+    border-image-source: linear-gradient(92.12deg, #57b5f9 0%, #da11ba 100%);
+}
+
+.topup_box {
+    background-clip: padding-box !important;
+    background: white;
+    margin-top: 42px;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    width: 394px;
+    position: relative;
+    padding: 24px;
+}
+
+.topup_up {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 0 !important;
+}
+
+.emoji {
+    width: 16px;
+    margin-left: 0.5em;
+    margin-bottom: -3px;
+}
+
+.topup_input {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+
+.empty {
+    opacity: .4;
+    outline: 0;
+    padding-right: 1px;
+}
+
+.hryvna {
+    white-space: pre-wrap;
+    display: flex;
+    align-items: flex-end;
+}
+
+.topup_subtitle {
+    margin-top: -24px;
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    color: gray;
+}
+
+.topup_down {
+    display: flex;
+    max-width: 346px;
+    margin: auto;
+    margin-top: 0;
+    width: 100%;
+}
+
+.topup_button {
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 0 3px;
+    text-align: center;
+    margin: 0 8px;
+    cursor: pointer;
+    user-select: none;
+    min-height: 40px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.field input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    transition: border-bottom-color 0.3s ease;
+}
+
+label {
+    cursor: default;
+    text-align: left;
+    line-height: 24px;
+    position: relative;
+}
+
+.shown {
+    display: flex;
+}
+
+.monopay {
+    margin-bottom: 16px;
+    width: 340px;
+    height: 48px;
+    background-color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.monopay_logo {
+    height: 26px;
+    margin: auto;
+}
+
+.gpay {
+    margin-bottom: 16px;
+    width: 340px;
+    height: 48px;
+    background-color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: auto;
+    color: aqua;
+}
+
+.gpay_logo {
+    height: 26px;
+    margin: auto;
+}
+
+.manual {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 24px;
+    margin-right: 24px;
+    box-sizing: border-box;
+    max-width: 340px;
+    margin-bottom: 42px;
+}
+
+.manual_split {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    border-top: 0.5px solid #ccc;
+}
+
+.manual_pay {
+    cursor: pointer;
+    display: flex;
+    padding: 8px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    color: #e85e5b;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_logo {
+    width: 16px;
+    height: 26px;
+    margin-right: 8px;
+}
+/*right*/
