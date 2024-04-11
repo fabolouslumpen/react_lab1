@@ -59,15 +59,15 @@
                             Сумма поповнення <img src="sources\money.png" alt="money" class="emoji">
                         </div>
                         <div class="topup_input empty">
-                            <div class="money_input" inputmode="decimal">0</div><div class="hryvna"> ₴</div>
+                            <div class="money_input" id="money">0</div><div class="hryvna"> ₴</div>
                         </div>
                         <div class="topup_subtitle">
                             Сума повинна бути від 10 ₴ до 29 999 ₴
                         </div>
                         <div class="topup_down">
-                            <div class="topup_button"><div>+100 ₴</div></div>
-                            <div class="topup_button"><div>+500 ₴</div></div>
-                            <div class="topup_button"><div>+1 000 ₴</div></div>
+                            <div class="topup_button" id="100"><div>+100 ₴</div></div>
+                            <div class="topup_button" id="500"><div>+500 ₴</div></div>
+                            <div class="topup_button" id="1000"><div>+1 000 ₴</div></div>
                         </div>
                     </div>
                     <div class="field">
@@ -76,15 +76,15 @@
                         <span></span>
                     </div>
                     <div class="field">
-                        <input type="cardnumber" id="xcard">
-                        <label for="xcard">Коментар (необов'язково)</label>
+                        <input type="description" id="comment">
+                        <label for="comment">Коментар (необов'язково)</label>
                         <span></span>
                     </div>
-                    <div class="monopay shown"><img src="sources\mono_pay.svg" alt="monopay logo" class="monopay_logo"></div>
-                    <div class="gpay shown"><img src="sources\GPay.png" alt="gpay_logo" class="gpay_logo"></div>
+                    <div class="monopay shown" id="mono_pay"><img src="sources\mono_pay.svg" alt="monopay logo" class="monopay_logo"></div>
+                    <div class="gpay shown" id="google_pay"><img src="sources\GPay.png" alt="gpay_logo" class="gpay_logo"></div>
                     <div class="manual">
                         <div class="manual_split"></div>
-                        <div class="manual_pay">
+                        <div class="manual_pay" id="pay">
                             <img src="sources\card.svg" alt="card red logo" class="card_logo">
                             <div class="card_text">Оплатити карткою</div></div>
                     </div>
@@ -107,5 +107,6 @@
                 </div>
             </div>
         </div>
+        <script src="scripts\main.js"></script>
     </body>
 </html>
